@@ -1,0 +1,89 @@
+# ============================================================
+# Environment & Secrets — NEVER commit API keys or credentials
+# ============================================================
+.env
+.env.*
+*.env
+secrets.yaml
+secrets.yml
+config/secrets.*
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+virtualenv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ============================================================
+# Jupyter Notebooks
+# ============================================================
+.ipynb_checkpoints/
+
+# ============================================================
+# ML / Deep Learning model weights & datasets
+# ============================================================
+*.pt
+*.pth
+*.weights
+*.h5
+*.hdf5
+*.ckpt
+*.safetensors
+*.pkl
+*.joblib
+
+# ============================================================
+# OS-specific files
+# ============================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ============================================================
+# IDE / Editor files
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ============================================================
+# Logs & temporary files
+# ============================================================
+*.log
+*.tmp
+*.temp
